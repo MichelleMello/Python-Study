@@ -9,4 +9,8 @@ character_name = "Mike"
 print("He really liked the name " + character_name + ", ")
 print("but didn't like being " + character_age)
 
-print("Giraffe\nAcademy")
+phrase ="Giraffe Academy"
+print(phrase.upper().isupper())
+print(len(phrase))
+print((phrase[2]))
+print(phrase.index("a"))
